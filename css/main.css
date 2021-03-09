@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  text-align: center;
+  background-color: transparent;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 780px;
+  top: 0px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 9px #000;  
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, rgba(99,110,114,1),#000);
+  background-size: cover;
+  background-position: center;
+  font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.sugestao-box{
+  width: 335px;
+  height: 505px;
+  background: url("../images/v59_1887.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 85px;
+  left: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 9px #fff;
+  background-color: rgba(255, 255, 255, 0.83);
+}
+
+.foto-sugestao1 {
+  width: 45px;
+  height: 45px;
+  background: url("../images/v95_1617.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  border-top-left-radius: 126px;
+  border-top-right-radius: 126px;
+  border-bottom-left-radius: 126px;
+  border-bottom-right-radius: 126px;
+  overflow: hidden;
+}
+.left-span {
+  width: 79px;
+  color: #000;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+
+.sugestao1-perfil{
+  width: 273px;
+  height: 48px;
+  background: url("../images/v95_1582.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 30px;
+  overflow: hidden;
+}
+.sugestao1-descri {
+  width: 214px;
+  color: #000;
+  position: absolute;
+  top: 28px;
+  left: 60px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.sugestao1-nome{
+  width: 88px;
+  color: #000;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 19px;
+  opacity: 1;
+  text-align: left;
+}
+.sugestao1-tag{
+  width: 79px;
+  color: #000;
+  position: absolute;
+  top: 6px;
+  left: 175px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+
+.seguidores-box{
+  width: 335px;
+  height: 330px;
+  background: url("../images/v59_1886.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 85px;
+  left: 1085px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 9px #fff;
+  background-color: rgba(255, 255, 255, 0.83);
+}
+
+.seguidores-pesquisar{
+  width: 315px;
+  height: 38px;
+  background: #000;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 8px;
+  border-top-left-radius: 95px;
+  border-top-right-radius: 95px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  overflow: hidden;
+}
+.seguidores-span-pesquisar {
+  width: 105px;
+  color: #fff;
+  position: absolute;
+  top: 36px;
+  left: 5px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.seguidores-span {
+  width: 76px;
+  color: #000;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.seguidores1-perfil{
+  width: 171px;
+  height: 52px;
+  background: url("../images/v95_1540.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 79px;
+  left: 22px;
+  overflow: hidden;
+}
+.seguidores1-nome{
+  width: 114px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 57px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.seguidores1-tag{
+  width: 111px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 27px;
+  left: 57px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 19px;
+  opacity: 1;
+  text-align: left;
+}
+.seguidores1-foto{
+  width: 45px;
+  height: 45px;
+  background: url("../images/v59_259.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  border-top-left-radius: 126px;
+  border-top-right-radius: 126px;
+  border-bottom-left-radius: 126px;
+  border-bottom-right-radius: 126px;
+  overflow: hidden;
+}
+
+.seguindo-box{
+  width: 335px;
+  height: 217px;
+  background: url("../images/v59_1885.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 438px;
+  left: 1085px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 9px #fff;
+  background-color: rgba(255, 255, 255, 0.83);
+}
+
+.seguindo-pesquisar{
+  width: 316px;
+  height: 38px;
+  background: #000;
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 7px;
+  border-top-left-radius: 95px;
+  border-top-right-radius: 95px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  overflow: hidden;
+}
+.seguindo-span-pesquisar{
+  width: 70px;
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.seguindo-span{
+  width: 74px;
+  color: #000;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.seguindo1-perfil{
+  width: 66px;
+  height: 94px;
+  background: url("../images/v95_1567.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 90px;
+  left: 15px;
+  overflow: hidden;
+}
+.seguindo1-nome{
+  width: 62px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 78px;
+  left: 2px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.foto-seguindo1 {
+  width: 66px;
+  height: 66px;
+  background: url("../images/v41_234.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 175px;
+  border-top-right-radius: 175px;
+  border-bottom-left-radius: 175px;
+  border-bottom-right-radius: 175px;
+  overflow: hidden;
+}

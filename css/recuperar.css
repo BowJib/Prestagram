@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to left, rgba(99,110,114,1),#000);
+        background-size: cover;
+        background-position: center;
+        font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.caixaconexao{
+    width: 543px;
+    height: 300px;
+    background: transparent;
+    color: #fff;
+    top: 50%;
+    left: 48.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 9px #000;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 880px;
+    top: 110px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 9px #000;
+}
+
+.caixaconexao h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    top: -50px;
+
+}
+
+.caixaconexao input{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    top: -35px;
+}
+
+.caixaconexao input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.caixaconexao p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    position: relative;
+    top: -35px;
+}
+
+.caixaconexao input[type="submit"]:hover{
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+
+.caixaconexao input[type="submit"]{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(to right, rgba(99,110,114,1),#000);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    position: relative;
+    top: -35px
+}
+
+
+.caixaconexao a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    position: relative;
+    top: -35px;
+}
+
+.caixaconexao a:hover{
+    color: #000;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: block;
+}

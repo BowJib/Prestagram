@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <header>
+        <a href="index.html"><img class="logo" src="imagens/Logo-Prestagram.png"></a>
+    </header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Prestagram</title>
+</head>
+<body>
+    <div class="caixaconexao">
+        <div class="button-box">
+                        <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="entrar()">Entrar</button>
+                <button type="button" class="toggle-btn" onclick="registrar()">Registrar</button>
+            </div>
+        <form id="entrar">
+            <p>Email</p>
+            <input type="text" name="" placeholder="Ex: emaildeacesso@email.com">
+            <p>Senha</p> 
+            <input type="password" name="" placeholder="Ex: senha123">
+            <span>Lembrar a Senha</span>
+            <input type="checkbox" class="chech-box">
+            <input type="submit" name="" value="Conectar">
+            <a href="tela-inicial.html">Próxima Etapa sem Senha</a><br>
+            <a href="recuperar.html">Esqueceu sua senha?</a><br>
+            <a href="ticket.html">Envie um Ticket!</a><br>
+    </form>
+        <form id="registrar">
+            <p>Email</p>
+            <input type="text" name="" placeholder="Ex: emaildeacesso@email.com">
+            <p>Usuário</p>
+            <input type="text" name="" placeholder="GatoDaWeb">
+            <p>Senha</p> 
+            <input type="password" name="" placeholder="Ex: senha123">
+            <span>Aceito os <a href="termos-de-uso.html">termos e condições</a></span>
+            <input type="checkbox" class="chech-box2">
+            <input type="submit" name="" value="Registrar">
+    </form>
+
+<script>
+var x = document.getElementById("entrar");
+var y = document.getElementById("registrar");
+var z = document.getElementById("btn");
+
+function registrar(){
+    x.style.left = "-550px";
+    y.style.left = "0px";
+    z.style.left = "110px";
+}
+function entrar(){
+    x.style.left = "0px";
+    y.style.left = "550px";
+    z.style.left = "0px";
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, rgba(99,110,114,1),#000);
+    background-size: cover;
+    background-position: center;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.caixaconexao{
+    width: 543px;
+    height: 543px;
+    background: transparent;
+    color: #fff;
+    top: 52%;
+    left: 48.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 9px #000;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 880px;
+    top: 110px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 9px #000;
+}
+
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.caixaconexao p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.caixaconexao input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.caixaconexao input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.caixaconexao input[type="submit"]{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(to right, rgba(99,110,114,1),#000);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    position: relative;
+    top: -35px
+}
+
+.caixaconexao input[type="submit"]:hover{
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+
+.caixaconexao a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.caixaconexao a:hover{
+    color: #000;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #000;
+    border-radius: 30px;
+    top: -50px;
+}
+
+.toggle-btn{
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(99,110,114,1),#000);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.chech-box{
+    margin: 30px 10px 30px 0;
+    top: -45px;
+    left: -110px;
+    position: relative;
+
+}
+
+.chech-box2{
+    margin: 30px 10px 30px 0;
+    top: -45px;
+    left: -60px;
+    position: relative;
+}
+
+span{
+    color:#fff;
+    font-size: 15px;
+    bottom: 68px;
+}
+
+#entrar{
+    position: relative;
+    left: 0px;
+    top: -50px;
+}
+#registrar{
+    position: relative;
+    left: 550px;
+    top: -365px;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+
+}
